@@ -268,3 +268,34 @@ footer{
     display: flex;
     width: 960px;
 }
+
+/* media queries*/
+@media only screen and  (max-width: 640px) {
+    body {
+        display: -webkit-flex;
+        display: flex;
+        width: 640px;
+        background-color: blue;
+        /*height: 650px;*/
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: -webkit-flex;
+        display: flex;
+        width: 768px;
+        background-color:red;
+        /*height: 650px;*/
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    body {
+        display: -webkit-flex;
+        display: flex;
+        width: 960px;
+        background-color: orange;
+        /*height: 650px;*/
+    }
+}
